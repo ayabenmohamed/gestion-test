@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-
+// add new commit
 const AddQuestionPage = () => {
   const [newQuestion, setNewQuestion] = useState({
     question_text: '',
@@ -111,5 +111,6 @@ const styles = {
   optionContainer: { display: 'flex', alignItems: 'center', marginBottom: '10px' },
   checkbox: { marginRight: '10px' },
 };
+
 
 export default AddQuestionPage;
